@@ -1,0 +1,25 @@
+//variables
+var firstName = "John"
+let lastName = "Smith"
+console.log(lastName)  //Smith
+
+var age, dateOfBirth, gender
+age = "5"
+gender = "Male"
+console.log(age)  //5
+age = "6"
+console.log(age)  //6
+
+//constants
+const occupation = "Engineer"
+console.log(occupation)
+//occupation = "driver"
+//console.log(occupation)   -->prints error
+
+//datatypes
+var middleName = 'David'  //string
+var ageOfBorther = 25  //number
+var isHeMarried = false  //boolean
+var yearsInMarriage = null  //null
+var numberOfCars = undefined //undefined
+
