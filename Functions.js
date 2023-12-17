@@ -32,7 +32,13 @@ var myResult = multipyByTwo(20)
 console.log(myResult)
 
 //import functions
-import {}
+import { printAge } from '../folderName/printHelper.js'
+printAge(5)
+
+//import everything
+import * as helper from '../folderName/printName.js'
+helper.printAge(10)
+
 
 
 
