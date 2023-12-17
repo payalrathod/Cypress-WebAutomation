@@ -1,3 +1,3 @@
-function printAge(age)  {
+export function printAge(age)  {
   console.log(age)
 }
